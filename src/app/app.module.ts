@@ -9,6 +9,8 @@ import { EmpleadosComponent } from './pages/empleados/empleados.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.component';
 import { ProductosComponent } from './pages/productos/productos.component';
+import { NutricionComponent } from './nutricion/nutricion.component';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,14 @@ import { ProductosComponent } from './pages/productos/productos.component';
     EmpleadosComponent,
     ContactanosComponent,
     SobreNosotrosComponent,
-    ProductosComponent
+    ProductosComponent,
+    NutricionComponent,
+    TarjetasComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
