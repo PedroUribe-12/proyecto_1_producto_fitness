@@ -97,3 +97,11 @@ ul li{
     background-color:blanchedalmond;
     font-weight: bold;
 }
+
+
+@media (max-width: 625px) {
+    .tarjeta{
+        display: grid;
+        grid-column: 1fr;
+    }
+}

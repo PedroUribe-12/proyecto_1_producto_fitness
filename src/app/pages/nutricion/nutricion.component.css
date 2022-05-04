@@ -101,3 +101,7 @@
 .tarjeta .descripcion input:hover{
     background: blueviolet;
 }
+
+body{
+    min-height: 100vh;
+}
