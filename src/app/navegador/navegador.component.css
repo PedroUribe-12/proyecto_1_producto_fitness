@@ -1,0 +1,11 @@
+nav{
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo{
+    left: 0;
+    width: 3em;
+    height: 3em;
+}

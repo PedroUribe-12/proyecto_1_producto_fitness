@@ -4,10 +4,11 @@ import { ContactanosComponent } from './pages/contactanos/contactanos.component'
 import { EmpleadosComponent } from './pages/empleados/empleados.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.component';
-import { NutricionComponent } from './pages/nutricion/nutricion.component';
 import { PaginaPrincipalComponent } from './pages/pagina-principal/pagina-principal.component';
+import { PaginaNoEncontradaComponent } from './pages/pagina-no-encontrada/pagina-no-encontrada.component';
 
 const routes: Routes = [
+  
   {
     path:'',
     redirectTo: 'pagina_principal',
@@ -34,9 +35,9 @@ const routes: Routes = [
     component: SobreNosotrosComponent
   },
   {
-    path:'nutricion',
-    component: NutricionComponent
-  }
+    path:'**',
+    component: PaginaNoEncontradaComponent
+  },
 ];
 
 @NgModule({

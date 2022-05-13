@@ -9,8 +9,8 @@ import { EmpleadosComponent } from './pages/empleados/empleados.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { SobreNosotrosComponent } from './pages/sobre-nosotros/sobre-nosotros.component';
 import { ProductosComponent } from './pages/productos/productos.component';
-import { NutricionComponent } from './pages/nutricion/nutricion.component';
 import { PaginaPrincipalComponent } from './pages/pagina-principal/pagina-principal.component';
+import { PaginaNoEncontradaComponent } from './pages/pagina-no-encontrada/pagina-no-encontrada.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { PaginaPrincipalComponent } from './pages/pagina-principal/pagina-princi
     ContactanosComponent,
     SobreNosotrosComponent,
     ProductosComponent,
-    NutricionComponent,
-    PaginaPrincipalComponent
+    PaginaPrincipalComponent,
+    PaginaNoEncontradaComponent
     
   ],
   imports: [
